@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    width: 100%;
+    height:80vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/images/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav img{
+    width: 150px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 2% 6%;
+    position: relative;
+    justify-content: space-between;
+}
+
+.nav_links{
+display: flex;
+text-align: right;
+}
+
+.nav_links ul li{
+    display: inline-block;
+    margin: 12px 10px;
+    position: relative;
+    list-style: none;
+    position: relative;
+}
+
+.nav_links ul li a{
+text-decoration: none;
+color: white;
+text-transform: capitalize;
+font-size: 18px;
+}
+.nav_links ul li::after{
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: red;
+    content: '';
+    left: 0;
+    bottom: 1px;
+    transition: 0.4s;
+ opacity: 1;
+} 
+
+.nav_links ul li:hover:after{
+width: 100%;
+
+}
+
+
+nav .fa{
+    display: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+.text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.text-box h1{
+    text-transform: uppercase;
+    color: white;
+}
+
+/* about css design is start */
+
+.rudder{
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+.bound{
+width: 100%;
+
+padding-left: 80px;
+display: flex;
+flex-direction: row;
+}
+.ma_lo_ma{
+    width: 50%;
+}
+.ma_lo_ma img{
+    width:85%;
+}
+.textbound{
+width: 50%;   
+
+   
+}
+.textbound h1{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.textbound button{
+    margin-top: 40px;
+    width: 25%;
+    height:35px;
+    border: 1px solid orange;
+    background: transparent;
+    text-transform:uppercase;
+}
+.textbound p{
+    width: 80%;
+
+}
+
+
+/* about css design is end here */
+
+
+
+/* the footer section design is start here */
+
+
+.lastdesign{
+    text-align: center;
+}
+.lastdesign h1{
+line-height: 120px;
+}
+.lastdesign p{
+margin-bottom: 120px;
+}
+
+
+
+.kibolbo a{
+    margin-left: 10px;
+   color:black;
+}
+

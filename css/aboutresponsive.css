@@ -1,0 +1,50 @@
+@media(max-width:870px){
+    .nav_links ul li{
+        display: block;
+        padding: 5px 15px;
+        }
+    
+    .nav_links{
+        position: absolute;
+        top: 0;
+        right:0;
+        display: none;
+        width: 200px;
+        height: 100vh;
+        text-align: left;
+        background: orangered;
+        transition: .4s;
+        z-index: 1;
+    }
+    
+    
+    nav .fa{
+    display: block;
+    margin-left: 12px;
+    margin-bottom: 5px;
+    }
+    
+    .text-box h1{
+        font-size: 40px;
+    }
+    
+.bound{
+    flex-direction: column;
+}
+
+.textbound
+{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.ma_lo_ma{
+    width: 100%;
+}
+
+
+.monial_head{
+    grid-template-columns: repeat(1,100%);
+  }
+
+}

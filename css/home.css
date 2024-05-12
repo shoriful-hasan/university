@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/images/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+nav img{
+    width: 150px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 2% 6%;
+    position: relative;
+    justify-content: space-between;
+}
+
+.nav_links{
+display: flex;
+text-align: right;
+}
+
+.nav_links ul li{
+    display: inline-block;
+    margin: 12px 10px;
+    position: relative;
+    list-style: none;
+    position: relative;
+}
+
+.nav_links ul li a{
+text-decoration: none;
+color: white;
+text-transform: capitalize;
+font-size: 18px;
+}
+.nav_links ul li::after{
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: red;
+    content: '';
+    left: 0;
+    bottom: 1px;
+    transition: 0.4s;
+ opacity: 1;
+} 
+
+.nav_links ul li:hover:after{
+width: 100%;
+
+}
+
+
+nav .fa{
+    display: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 50px;
+}
+.text-box h1{
+font-size: 62px;
+color: white;
+}
+.text-box p{
+    margin-top: 20px;
+    color: azure;
+    font-size: 23px;
+}
+
+.hero-btn{
+border: 1px solid white;
+text-decoration: none;
+color: white;
+background: transparent;
+transition: .4s;
+padding: 5px 44px;
+margin-top: 20px;
+}
+
+.hero-btn:hover{
+    background-color:orangered;
+}
+
+/* header css is end here  */
+
+
+/* courseweoffer css is start here */
+.courseweoffer{
+
+    text-align: center;
+margin-top: 80px;
+margin-bottom: 80px;
+}
+
+
+
+.subcontent{
+   box-shadow: 2px 2px 1px 4px rgba(4,9,30,0.7);
+    width:330px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+margin: 10px 20px;
+text-transform: capitalize;
+}
+
+.textcourse{
+    margin-bottom: 30px;
+}
+
+.tomer-mon{
+display: flex;
+justify-content: center;
+width: 100%;
+}
+
+
+
+.amardesh{
+
+    width: 330px;
+    position: relative;
+   overflow: hidden;
+   display: flex;
+   margin: 5px 5px;
+}
+
+.amardesh img{
+    width: 100%;
+}
+
+.ross{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: red;
+    opacity: .5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -100%;
+    transition: .5s;
+}
+
+.koro{
+display: flex;
+justify-content:space-evenly;
+flex-direction: row;
+}
+
+.amardesh:hover .ross{
+top: 0%;
+}
+
+.ourglobalcampus{
+    margin-bottom: 50px;
+}
+
+
+.fac-border{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.facilities{
+    margin-top: 180px;
+    margin-bottom: 150px;
+}
+
+.litiestex{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.litiestex h1{
+    text-transform: capitalize;
+    font-size: 32px;
+}
+
+
+.innerfac{
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 15px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.innerfac img{
+    width: 100%;
+}
+
+
+.know{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.know a{
+text-align: center;
+text-transform: capitalize;
+padding: 10px;
+width: 120px;
+margin: 10px 10px;
+border-radius: 10px;
+text-decoration: none;
+color: black;
+border-radius: 51px 0px 52px 0px;
+-moz-border-radius: 51px 0px 52px 0px;
+-webkit-border-radius: 51px 0px 52px 0px;
+border: 1px solid cyan;
+transition: .5s;
+}
+
+
+.know a:hover{
+ background: rgb(11, 212, 71);
+ border: 1px solid rgb(104, 82, 82);
+ color: white;
+}
+
+.know .xtr{
+    border-radius: 0px 50px 0px 53px;
+-moz-border-radius: 0px 50px 0px 53px;
+-webkit-border-radius: 0px 50px 0px 53px;
+border: 1px solid cyan;
+}
+/* testimonial section css is here */
+
+
+
+.testimonial{
+    height: 100vh;
+}
+
+.monial_head{
+  
+display: grid;
+grid-gap: 30px;
+grid-template-columns: repeat(2,40%);
+justify-content: space-around;
+}
+
+.left{
+   
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 2px 2px 2px 4px;
+    border-radius: 18px;
+}
+.girl_left{
+    width:20%;
+}
+
+.right_girl{
+width: 80%;
+}
+.right_girl i{
+    margin-left: 10px;
+    margin-top: 15px;
+    color: gold;
+}
+
+.girl_left img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+/* testimonial section css is end here */
+
+
+
+
+
+/* last enroll section design is start here */
+
+.enroll{
+width: 100%;
+height: 100vh;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.llorne{
+width: 80%;
+height: 50%;
+    background-image: url(/images/banner2.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+border-radius: 18px;
+display: flex;
+flex-direction:column;
+align-items: center;
+justify-content: center;
+gap: 50px;
+}
+
+.llorne button{
+    width: 180px;
+    height: 40px;
+    border: 1px solid white;
+    background: transparent;
+    font-size: 18px;
+    text-transform: uppercase;
+cursor: pointer;
+transition: .5s ease-in;
+}
+
+.llorne button:hover{
+    background:orange;
+    color: white;
+    border:1px solid cyan;
+
+}
+
+.llorne h1{
+    text-transform:uppercase;
+    color: rgb(49, 44, 44);
+    line-height: 60px;
+}
+
+/* last enroll section design is end here */
+
+
+
+/* about us section design is start here */
+
+.lastdesign{
+    text-align: center;
+}
+.lastdesign h1{
+line-height: 120px;
+}
+.lastdesign p{
+margin-bottom: 120px;
+}
+
+
+
+.kibolbo a{
+    margin-left: 10px;
+   color:black;
+}
